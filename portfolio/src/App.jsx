@@ -2,11 +2,11 @@ import { useState } from "react";
 import "./App.css";
 
 // Components
-import About from "./Components/About";
+import About from "./Components/About/About";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Footer from "./Components/Footer";
 import FunctionWheel from "./Components/FunctionWheel/FunctionWheel";
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header";
 import ProjectScreener from "./Components/ProjectScreener/ProjectScreener";
 import SoundBoxes from "./Components/SoundBoxes/SoundBoxes";
 

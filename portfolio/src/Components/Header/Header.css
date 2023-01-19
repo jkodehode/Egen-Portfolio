@@ -1,0 +1,77 @@
+button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:hover {
+  scale: 0.9;
+  opacity: 0.8;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.headerBox {
+  display: grid;
+  width: 1000px;
+  height: 400px;
+  grid-template-areas: "left right";
+  grid-template-columns: 30% 70%;
+  margin: 0;
+  padding: 0;
+}
+
+.leftSide {
+  grid-area: left;
+  background-color: rgba(20, 82, 136, 0.363);
+  width: 100%;
+  justify-self: right;
+  margin: 0;
+  padding: 0;
+}
+
+.rightSide {
+  grid-area: right;
+  background-color: rgba(240, 248, 255, 0.363);
+  width: 100%;
+  justify-self: left;
+  margin: 0;
+  padding: 0;
+}
+
+.rightTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RunBtn {
+  width: 20px;
+}
+
+.RunBtn img {
+  width: 120px;
+}
+
+.longRed {
+  width: 400px;
+  height: 35px;
+  border-radius: 6px;
+  background-color: #fc5130;
+}
+
+.switchBox {
+  display: flex;
+  justify-content: center;
+}
+
+.colorSwitch {
+  background-color: rgba(240, 255, 255, 0.123);
+  width: 1000px;
+  text-align: center;
+  height: 60px;
+}
