@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <p>John Petter Kleppen</p>
+      <p>info boxes</p>
     </>
   );
 }
